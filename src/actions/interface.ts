@@ -1,5 +1,5 @@
-interface actions {
+interface Counteractions {
   type: String;
 }
 
-export default actions;
+export default Counteractions;

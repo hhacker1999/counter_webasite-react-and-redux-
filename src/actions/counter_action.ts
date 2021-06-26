@@ -1,13 +1,13 @@
-import actions from "./interface";
+import Counteractions from "./interface";
 
 
 
-export const increment = (): actions => {
+export const increment = (): Counteractions => {
   return { type: "INCREMENT"};
 };
 
 
-export const decrement = (): actions => {
+export const decrement = (): Counteractions => {
     return { type: "DECREMENT" };
   };
 

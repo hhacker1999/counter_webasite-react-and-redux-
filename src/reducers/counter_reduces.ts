@@ -1,6 +1,6 @@
-import actions from "../actions/interface";
+import Counteractions from "../actions/interface";
 
-const counterReducer = (state: number = 0, action: actions) : number => {
+const counterReducer = (state: number = 0, action: Counteractions) : number => {
   switch (action.type) {
     case "INCREMENT":
       return state + 1;
